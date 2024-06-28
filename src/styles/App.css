@@ -1,61 +1,88 @@
 /* src/App.css */
 
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5;
 }
 
-nav {
-    background-color: #282c34;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-}
-
-nav li {
-    margin-right: 1rem;
-}
-
-nav a {
-    color: #61dafb;
-    text-decoration: none;
-}
-
-nav a:hover {
-    text-decoration: underline;
+.app-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff;
+  max-width: 800px;
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    color: #333;
+  color: #333;
+  margin-bottom: 2rem;
 }
 
-.container {
-    padding: 2rem;
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 
-.market-data {
-    list-style: none;
-    padding: 0;
+.nav-link,
+.nav-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #007bff;
+  background-color: #fff;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
-.market-data li {
-    background-color: #fff;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+.nav-link:hover,
+.nav-button:hover {
+  background-color: #007bff;
+  color: #fff;
 }
 
-.market-data li:hover {
-    background-color: #f1f1f1;
+.nav-button {
+  border: 2px solid #dc3545;
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.nav-button:hover {
+  background-color: #c82333;
+  border-color: #c82333;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.back-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #007bff;
+  background-color: #fff;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #007bff;
+  color: #fff;
 }

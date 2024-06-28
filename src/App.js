@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <h1>Welcome to Your App</h1>
+      <h1>Welcome to Robinhood</h1>
       <nav className="nav-bar">
         {!isSignedIn && (
           <>
@@ -22,6 +22,7 @@ const App = () => {
           <>
             <Link className="nav-link" to="/portfolio">Portfolio</Link>
             <Link className="nav-link" to="/market">Market</Link>
+            <Link className="nav-link" to="/join-or-create-organization">Organizations</Link>
             <button className="nav-button" onClick={signOut}>Log Out</button>
           </>
         )}
