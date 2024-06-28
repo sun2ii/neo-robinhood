@@ -21,6 +21,7 @@ const App = () => {
         {isSignedIn && (
           <>
             <Link className="nav-link" to="/portfolio">Portfolio</Link>
+            <Link className="nav-link" to="/market">Market</Link>
             <button className="nav-button" onClick={signOut}>Log Out</button>
           </>
         )}

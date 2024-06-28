@@ -1,10 +1,8 @@
 // src/clerkConfig.js
-import { ClerkProvider } from '@clerk/clerk-react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { ClerkProvider, SignedIn, SignIn, SignUp, UserProfile } from '@clerk/clerk-react';
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import React from 'react';
 import App from './App';
-import SignInPage from './pages/SignInPage';
-import SignUpPage from './pages/SignUpPage';
 import PortfolioPage from './pages/PortfolioPage';
 import JoinOrganizationPage from './pages/JoinOrganizationPage';
 
@@ -16,10 +14,12 @@ const clerkConfig = (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/sign-in" element={<SignInPage />} />
-        <Route path="/sign-up" element={<SignUpPage />} />
-        <Route path="/portfolio" element={<PortfolioPage />} /> {/* Add portfolio route */}
+        <Route path="/sign-in/*" element={<SignIn />} />
+        <Route path="/sign-up/*" element={<SignUp />} />
+        <Route path="/portfolio" element={<SignedIn><PortfolioPage /></SignedIn>} />
         <Route path="/join-organization" element={<JoinOrganizationPage />} />
+        <Route path="/user" element={<UserProfile />} />
+        <Route path="*" element={<Navigate to="/sign-in" />} />
       </Routes>
     </BrowserRouter>
   </ClerkProvider>
