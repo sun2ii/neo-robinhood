@@ -1,0 +1,71 @@
+/* src/pages/PortfolioPage.css */
+
+/* Container for the portfolio data page */
+.portfolio-data-container {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.portfolio-data-container h1 {
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Portfolio data list styles */
+.portfolio-data {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Individual portfolio data item styles */
+.portfolio-data li {
+    background-color: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.portfolio-data li:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Stock name and symbol styles */
+.portfolio-data .stock-name {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Stock info container */
+.portfolio-data .stock-info {
+    text-align: right;
+}
+
+/* Stock price and shares styles */
+.portfolio-data .stock-price {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.portfolio-data .stock-shares {
+    color: #17a2b8;
+}
+
+/* Loading message styles */
+.loading-message {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #666;
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "shares": 10,
+        "price": 145.32
+    },
+    {
+        "symbol": "TSLA",
+        "name": "Tesla Inc.",
+        "shares": 5,
+        "price": 699.20
+    },
+    {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "shares": 2,
+        "price": 2725.60
+    }
+]

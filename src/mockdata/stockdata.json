@@ -1,0 +1,227 @@
+[
+    {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": 145.32,
+        "close": 145.32,
+        "open": 144.00,
+        "high": 146.00,
+        "low": 143.50
+    },
+    {
+        "symbol": "TSLA",
+        "name": "Tesla Inc.",
+        "price": 699.20,
+        "close": 699.20,
+        "open": 695.00,
+        "high": 705.00,
+        "low": 690.00
+    },
+    {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": 2725.60,
+        "close": 2725.60,
+        "open": 2700.00,
+        "high": 2730.00,
+        "low": 2690.00
+    },
+    {
+        "symbol": "AMZN",
+        "name": "Amazon.com Inc.",
+        "price": 3450.00,
+        "close": 3450.00,
+        "open": 3400.00,
+        "high": 3465.00,
+        "low": 3390.00
+    },
+    {
+        "symbol": "FB",
+        "name": "Facebook Inc.",
+        "price": 355.64,
+        "close": 355.64,
+        "open": 350.00,
+        "high": 357.00,
+        "low": 348.50
+    },
+    {
+        "symbol": "MSFT",
+        "name": "Microsoft Corp.",
+        "price": 299.35,
+        "close": 299.35,
+        "open": 295.00,
+        "high": 301.00,
+        "low": 293.50
+    },
+    {
+        "symbol": "NFLX",
+        "name": "Netflix Inc.",
+        "price": 593.20,
+        "close": 593.20,
+        "open": 580.00,
+        "high": 600.00,
+        "low": 575.00
+    },
+    {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corp.",
+        "price": 230.50,
+        "close": 230.50,
+        "open": 225.00,
+        "high": 232.00,
+        "low": 223.50
+    },
+    {
+        "symbol": "PYPL",
+        "name": "PayPal Holdings Inc.",
+        "price": 310.45,
+        "close": 310.45,
+        "open": 305.00,
+        "high": 312.00,
+        "low": 302.50
+    },
+    {
+        "symbol": "ADBE",
+        "name": "Adobe Inc.",
+        "price": 640.30,
+        "close": 640.30,
+        "open": 630.00,
+        "high": 645.00,
+        "low": 628.50
+    },
+    {
+        "symbol": "INTC",
+        "name": "Intel Corp.",
+        "price": 53.28,
+        "close": 53.28,
+        "open": 52.50,
+        "high": 53.50,
+        "low": 52.00
+    },
+    {
+        "symbol": "CSCO",
+        "name": "Cisco Systems Inc.",
+        "price": 55.66,
+        "close": 55.66,
+        "open": 54.80,
+        "high": 56.00,
+        "low": 54.50
+    },
+    {
+        "symbol": "ORCL",
+        "name": "Oracle Corp.",
+        "price": 88.67,
+        "close": 88.67,
+        "open": 87.50,
+        "high": 89.00,
+        "low": 87.00
+    },
+    {
+        "symbol": "IBM",
+        "name": "International Business Machines Corp.",
+        "price": 142.36,
+        "close": 142.36,
+        "open": 140.00,
+        "high": 143.00,
+        "low": 139.50
+    },
+    {
+        "symbol": "CRM",
+        "name": "Salesforce.com Inc.",
+        "price": 245.60,
+        "close": 245.60,
+        "open": 240.00,
+        "high": 248.00,
+        "low": 238.50
+    },
+    {
+        "symbol": "SHOP",
+        "name": "Shopify Inc.",
+        "price": 1500.45,
+        "close": 1500.45,
+        "open": 1480.00,
+        "high": 1520.00,
+        "low": 1475.00
+    },
+    {
+        "symbol": "TWTR",
+        "name": "Twitter Inc.",
+        "price": 69.30,
+        "close": 69.30,
+        "open": 68.00,
+        "high": 70.00,
+        "low": 67.50
+    },
+    {
+        "symbol": "UBER",
+        "name": "Uber Technologies Inc.",
+        "price": 49.25,
+        "close": 49.25,
+        "open": 48.00,
+        "high": 50.00,
+        "low": 47.50
+    },
+    {
+        "symbol": "LYFT",
+        "name": "Lyft Inc.",
+        "price": 58.45,
+        "close": 58.45,
+        "open": 57.00,
+        "high": 59.00,
+        "low": 56.50
+    },
+    {
+        "symbol": "SQ",
+        "name": "Square Inc.",
+        "price": 270.60,
+        "close": 270.60,
+        "open": 265.00,
+        "high": 275.00,
+        "low": 263.50
+    },
+    {
+        "symbol": "ZM",
+        "name": "Zoom Video Communications Inc.",
+        "price": 340.45,
+        "close": 340.45,
+        "open": 335.00,
+        "high": 345.00,
+        "low": 333.50
+    },
+    {
+        "symbol": "SPOT",
+        "name": "Spotify Technology S.A.",
+        "price": 250.32,
+        "close": 250.32,
+        "open": 245.00,
+        "high": 255.00,
+        "low": 243.50
+    },
+    {
+        "symbol": "ROKU",
+        "name": "Roku Inc.",
+        "price": 410.50,
+        "close": 410.50,
+        "open": 400.00,
+        "high": 415.00,
+        "low": 395.50
+    },
+    {
+        "symbol": "BA",
+        "name": "The Boeing Company",
+        "price": 225.36,
+        "close": 225.36,
+        "open": 220.00,
+        "high": 228.00,
+        "low": 219.50
+    },
+    {
+        "symbol": "DIS",
+        "name": "The Walt Disney Company",
+        "price": 178.60,
+        "close": 178.60,
+        "open": 175.00,
+        "high": 180.00,
+        "low": 174.50
+    }
+]
