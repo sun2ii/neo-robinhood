@@ -1,11 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './styles/index.css';
-import App from './App';
+// src/index.js
+import { createRoot } from 'react-dom/client';
+import clerkConfig from './clerkConfig';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const container = document.getElementById('root');
+const root = createRoot(container);
+
+root.render(clerkConfig);

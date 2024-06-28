@@ -1,25 +1,33 @@
-// // src/App.js
+// src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { useClerk, useUser } from '@clerk/clerk-react';
+import { Link } from 'react-router-dom';
 import './styles/App.css';
 
-import HomePage from './pages/HomePage';
-import MarketPage from './pages/MarketPage';
-import PortfolioPage from './pages/PortfolioPage';
-import Navbar from './components/Navbar';
-
 const App = () => {
-    return (
-        <Router>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/market" element={<MarketPage />} />
-                <Route path="/portfolio" element={<PortfolioPage />} />
-                {/* Add other routes here */}
-            </Routes>
-        </Router>
-    );
+  const { signOut } = useClerk();
+  const { isSignedIn } = useUser();
+
+  return (
+    <div className="app-container">
+      <h1>Welcome to Your App</h1>
+      <nav className="nav-bar">
+        {!isSignedIn && (
+          <>
+            <Link className="nav-link" to="/sign-in">Sign In</Link>
+            <Link className="nav-link" to="/sign-up">Sign Up</Link>
+          </>
+        )}
+        {isSignedIn && (
+          <>
+            <Link className="nav-link" to="/portfolio">Portfolio</Link>
+            <button className="nav-button" onClick={signOut}>Log Out</button>
+          </>
+        )}
+      </nav>
+      {/* Add your main application components here */}
+    </div>
+  );
 };
 
 export default App;
