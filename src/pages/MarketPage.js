@@ -1,7 +1,7 @@
 // src/pages/MarketPage.js
 import React, { useEffect, useState } from 'react';
 import stockData from '../mockdata/stockdata.json'; // Import the JSON data
-import '../style/MarketPage.css';
+import '../styles/MarketPage.css';
 
 const MarketPage = () => {
     const [marketData, setMarketData] = useState([]);
